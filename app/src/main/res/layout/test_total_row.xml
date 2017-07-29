@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <!--  ListRow Left side tip image -->
+    <ImageView
+        android:id="@+id/infoview"
+        android:visibility="invisible"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_green_info"/>
+
+    <!-- Patient Symbol-->
+    <TextView
+        android:id="@+id/testname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/infoview"
+        android:text="TOTAL"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="26dip"
+        android:textStyle="bold"/>
+
+    <!-- Comopany Name -->
+    <TextView
+        android:id="@+id/total_score"
+        android:layout_width="70dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:textColor="#DD33BB"
+        android:typeface="sans"
+        android:textSize="26dip"
+        android:textStyle="bold"
+        android:text="" />
+
+
+    <TextView
+        android:id="@+id/total_previous_score"
+        android:layout_width="25dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_score"
+        android:textColor="#777777"
+        android:textSize="14dip"
+        android:layout_alignLeft="@+id/total_score"
+        android:gravity="left"
+        android:paddingTop="5dip"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/total_next_score"
+        android:layout_width="25dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_score"
+        android:textColor="#777777"
+        android:textSize="14dip"
+        android:layout_alignRight="@+id/total_score"
+        android:paddingTop="5dip"
+        android:gravity="right"
+        android:text="" />
+
+</RelativeLayout>

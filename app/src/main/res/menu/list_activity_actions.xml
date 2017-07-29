@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/action_previous"
+        android:icon="@drawable/ic_action_back"
+        android:title="Previous Test"
+        android:showAsAction="ifRoom" />
+    <item android:id="@+id/action_next"
+        android:icon="@drawable/ic_action_forward"
+        android:title="Next Test"
+        android:showAsAction="ifRoom" />
+    <item android:id="@+id/action_new"
+        android:icon="@drawable/ic_action_new"
+        android:title="New Test"
+        android:showAsAction="never" />
+    <item android:id="@+id/action_remove"
+        android:icon="@drawable/ic_action_remove"
+        android:title="Delete Test"
+        android:showAsAction="never" />
+</menu>
