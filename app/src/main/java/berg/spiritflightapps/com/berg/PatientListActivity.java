@@ -3,6 +3,7 @@ package berg.spiritflightapps.com.berg;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.ContextMenu;
 import android.view.KeyEvent;
 import android.view.MenuInflater;
@@ -15,7 +16,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
-public class PatientListActivity extends Activity {
+public class PatientListActivity extends AppCompatActivity {
 
     EditText addNewPatient;
     ListView list;

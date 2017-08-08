@@ -3,6 +3,7 @@ package berg.spiritflightapps.com.berg;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -12,7 +13,7 @@ import android.widget.ListView;
 import berg.spiritflightapps.com.berg.util.BergDateUtility;
 
 
-public class TestListActivity extends Activity {
+public class TestListActivity extends AppCompatActivity {
 
     ListView list;
     TestListAdapter adapter;
